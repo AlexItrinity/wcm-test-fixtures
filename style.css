@@ -1,0 +1,19 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f6fb;color:#1c2333}
+.top{display:flex;justify-content:space-between;align-items:center;background:#1f3a8a;color:#fff;padding:18px 40px}
+.top nav a{color:#fff;margin-left:24px;text-decoration:none}.logo{font-weight:bold;font-size:22px}
+.hero{background:linear-gradient(135deg,#3b82f6,#8b5cf6);color:#fff;padding:80px 40px;text-align:center}
+.hero h1{font-size:44px;margin:0 0 16px}.hero p{font-size:20px}
+.form{display:flex;justify-content:center;gap:12px;margin-top:28px}.form input{padding:14px;width:320px;border-radius:6px;border:0}
+.btn{background:#f59e0b;color:#111;border:0;padding:14px 28px;font-weight:bold;border-radius:6px;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding:48px 40px}
+.card{background:#fff;border-radius:10px;padding:28px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.card h3{margin-top:0;color:#1f3a8a}.price{font-size:40px;font-weight:bold;color:#111}
+footer{padding:30px 40px;color:#667;font-size:13px;text-align:center}
+.wrap{max-width:900px;margin:0 auto;padding:40px}.legal h2{color:#1f3a8a;margin-top:32px}
+.news li{background:#fff;margin:10px 0;padding:16px 20px;border-radius:8px;list-style:none}.news ul{padding:0}
+.ad{height:120px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff;font-weight:bold}
+.prod{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:40px}.img{background:#cbd5e1;height:380px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:28px;color:#475569}
+.buybox{background:#fff;border-radius:12px;padding:30px}.stock-out{color:#b91c1c;font-weight:bold;font-size:20px}.stock-in{color:#15803d;font-weight:bold;font-size:20px}
+.promo{background:#dc2626;color:#fff;text-align:center;padding:26px;font-size:22px;font-weight:bold}
+.cookie{position:fixed;left:0;top:0;right:0;bottom:0;background:rgba(0,0,0,.75);display:flex;align-items:center;justify-content:center}
+.cookie div{background:#fff;padding:40px;border-radius:12px;width:560px;font-size:18px}
